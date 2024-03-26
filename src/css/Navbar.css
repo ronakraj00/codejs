@@ -2,6 +2,12 @@
     /* background-color: #1d4ed8; */
 }
 
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -9,7 +15,8 @@ nav {
     background-color: #0f172a;
     color: white;
     position: sticky;
-    top: 5px;
+    border-radius: 50px;
+    width: 70%;
 }
 
 nav .title {

@@ -1,4 +1,3 @@
-
 .preview-card {
     max-width: 400px;
     overflow: hidden;
@@ -13,13 +12,14 @@
     align-items: center;
     padding: 4px;
 }
+
 .preview-card-image {
     max-width: 98%;
     border-radius: 14px;
 }
 
 .preview-card-header {
-    padding:8px 14px;
+    padding: 8px 14px;
 }
 
 .preview-card-name {
@@ -31,19 +31,19 @@
 
 .header-top {
     display: flex;
-    gap:10px;
+    gap: 10px;
     justify-content: space-between;
 }
 
-.card-about{
+.card-about {
     overflow: hidden;
-text-overflow: ellipsis;
-display: -webkit-box;
--webkit-line-clamp: 3;
--webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
-.preview-card-rating{
+.preview-card-rating {
     background-color: rgba(72, 71, 63, 0.61);
     border-radius: 4px;
     padding: 4px;

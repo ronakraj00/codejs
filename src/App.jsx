@@ -11,7 +11,7 @@ import Contacts from "./component/Contacts.jsx";
 function App() {
     // console.log(places);
     return (
-        <BrowserRouter>
+        <div>
             <Navbar />
             <Routes>
                 <Route path="/" element={<CardList />}></Route>
@@ -19,7 +19,7 @@ function App() {
                 <Route path="/services" element={<Services />}></Route>
                 <Route path="/contact" element={<Contacts />}></Route>
             </Routes>
-        </BrowserRouter>
+        </div>
 
     );
 }
