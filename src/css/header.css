@@ -1,20 +1,52 @@
 header {
-    min-height: 100px;
+    min-height: 60px;
     max-height: 300px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 4px;
+    background-color: aqua;
 }
 
 .logo-wrapper{
-    margin-left: 10px;
+    margin-left: 50px;
+    height: auto;
+    width: auto;
 }
 .menu-wrapper{
-    margin-right: 10px;
+    margin-right: 50px;
+    height: auto;
+    width: auto;
+}
+
+.search-wrapper{
+    width: 50%;
+}
+
+.search{
+    height: 40px;
+    width: 90%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+
+.searchButton{
+    height: 40px;
+    width: 10%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
 }
 
 .logo {
     border-radius: 50%;
     overflow: hidden;
     max-height: 30px;
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

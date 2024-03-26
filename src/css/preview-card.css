@@ -64,7 +64,7 @@ display: -webkit-box;
 }
 
 .active {
-    animation: cardAnime 400ms ease-in-out 1 forwards;
+    animation: cardAnime 600ms ease-in-out 1 forwards;
 }
 
 @keyframes cardAnime {
