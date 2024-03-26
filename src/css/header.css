@@ -44,3 +44,9 @@ header {
     overflow: hidden;
     max-height: 30px;
 }
+
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
