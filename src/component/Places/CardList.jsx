@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PreviewCard from './previewCard.jsx';
-import place from "../../place_with_about.js";
+import place from "../../../place_with_about.js";
 
 const CardList = () => {
     const [currentPage, setCurrentPage] = useState(1);

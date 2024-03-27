@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import "./css/App.css";
-import CardList from "./component/CardList.jsx";
+import CardList from "./component/Places/CardList.jsx";
 import Navbar from "./component/Navbar.jsx";
 import Home from "./component/Home.jsx";
 import About from "./component/About.jsx";

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "../css/preview-card.css";
+import "../../css/Places/preview-card.css";
 
 function PreviewCard({ img, name, rating, about }) {
     useEffect(() => {
