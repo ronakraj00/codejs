@@ -24,7 +24,7 @@ function PreviewCard({ img, name, rating, about }) {
     });
 
     return (
-        <div className="preview-card">
+        <div className="preview-card border-red-400">
             <div className="preview-card-image-wrapper">
                 <img className="preview-card-image" src={img} alt="" />
             </div>
