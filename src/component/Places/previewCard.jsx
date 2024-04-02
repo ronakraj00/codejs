@@ -13,7 +13,6 @@ function PreviewCard({ img, name, rating, about }) {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add("active");
-                } else {
                 }
             });
         };
